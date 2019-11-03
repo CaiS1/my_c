@@ -1,0 +1,20 @@
+<!--pages/the_6_page/the_6_page.wxml-->
+<!--pages/the_five_page/the_five_page.wxml-->
+<!--pages/the_fo_page/the_fo_page.wxml-->
+<!--pages/the_first_page/the_first_page.wxml-->
+<view class="test-bg">
+<image src="cloud://sweet-69004.7377-sweet-69004-1259591078/pit/微信图片_201908121017005.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+<view class="child">{{text}}</view>
+<view class="one">
+
+
+<view class="two">
+<navigator url="/pages/the_7_page/the_7_page">
+<van-button hairline="true"   catchtap="jumpToOverMissionList" plain type="primary">我喜欢你</van-button></navigator>
+</view>
+<view class="third">
+<van-button  bindtap="goToTalkPage" hairline="true" plain type="primary">夜色真美</van-button>
+</view>
+</view>
+

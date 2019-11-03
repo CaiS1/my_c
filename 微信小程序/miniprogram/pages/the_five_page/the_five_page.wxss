@@ -1,0 +1,73 @@
+/* pages/the_five_page/the_five_page.wxss */
+/* pages/the_fo_page/the_fo_page.wxss */
+/* pages/the_first_page/the_first_page.wxss */
+ page{
+    width: 100%;
+    height: 100%;
+  }
+
+  .test-bg{
+    width: 100%;
+    height: 600rpx;
+  }
+
+  .bg-image
+  {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+  }
+
+.one{
+  width: 750rpx;
+  height: 48rpx;
+  left: 0;
+  right: 0;
+  bottom:0;
+  text-align: center;
+  color: #66CCFF;
+  
+  font-size: 9px;
+}
+.two{
+  width: 300rpx;
+  height: 48rpx;
+  left: 0;
+  right: 0;
+  bottom:0;
+  top:1300rpx;
+  text-align: center;
+  color: #66CCFF;
+  font-size: 9px;
+   position: absolute;
+  margin-right: 440rpx;
+}
+.third{
+  
+  width: 300rpx;
+  height: 48rpx;
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom:0;
+  top: 1300rpx;
+  text-align: center;
+  color: #66CCFF;
+  font-size: 9px;
+  margin-left: 440rpx;
+}
+.child {
+  width: 750rpx;
+  height: 800rpx;  
+  left: 0;
+  right: 0;
+  bottom:0;
+  top: 800rpx;
+  white-space:pre;
+  margin:auto;
+  text-align: center;
+  position: absolute;
+  font-size: 14px;
+  
+}

@@ -1,0 +1,14 @@
+<!--pages/the_first_page/the_first_page.wxml-->
+<view class="test-bg">
+<image src="cloud://sweet-69004.7377-sweet-69004/pit/微信图片_201908121017001.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+<view class="child">{{text}}</view>
+<view class="one">
+<view class="two">
+<van-button  bindtap="goToTalkPage" hairline="true"  plain type="primary">介意聊一聊吗</van-button>
+</view>
+<view class="third">
+<van-button hairline="true" catchtap="jumpToOverMissionList"  plain type="primary">可以认识下吗</van-button>
+<!--</navigator>-->
+</view>
+</view>

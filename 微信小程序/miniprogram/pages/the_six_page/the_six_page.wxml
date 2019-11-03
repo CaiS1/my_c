@@ -1,0 +1,13 @@
+<!--pages/the_five_page/the_five_page.wxml-->
+<view class="test-bg">
+<image src="cloud://sweet-69004.7377-sweet-69004-1259591078/pit/微信图片_201908121017005.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+<view class="child">{{text}}</view>
+<view class="one">
+<view class="two">
+<van-button hairline="true"  catchtap="jumpToOverMissionList" plain type="primary">还是我来吧</van-button>
+</view>
+<view class="third">
+<van-button  bindtap="goToTalkPage" hairline="true" plain type="primary">她自己收拾吧</van-button>
+</view>
+</view>

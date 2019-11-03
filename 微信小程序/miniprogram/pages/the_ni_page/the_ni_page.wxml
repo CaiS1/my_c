@@ -1,0 +1,9 @@
+<!--pages/the_se_page/the_se_page.wxml-->
+<view class="test-bg">
+<image src="cloud://sweet-69004.7377-sweet-69004/拣爱/微信图片_20190717101559.jpg" class="bg-image" mode="widthFix"></image>
+</view>
+<view class="child">{{text}}</view>
+<view class="one">
+<van-button bindtap="goToTalkPage" plain hairline type="primary"><van-icon name="arrow-down" /></van-button>
+
+</view>

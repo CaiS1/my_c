@@ -1,0 +1,75 @@
+/* pages/the_first_page/the_first_page.wxss */
+ page
+ {
+    width: 100%;
+    height: 100%;
+  }
+
+  .test-bg
+  {
+    width: 100%;
+    height: 600rpx;
+  }
+
+  .bg-image
+  {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+  }
+
+.one
+{
+  width: 750rpx;
+  height: 48rpx;
+  left: 0;
+  right: 0;
+  bottom:0;
+  text-align: center;
+  color: #66CCFF;
+  
+  font-size: 9px;
+}
+.two{
+  width: 300rpx;
+  height: 48rpx;
+  left: 0;
+  right: 0;
+  bottom:0;
+  top:2100rpx;
+  text-align: center;
+  color: #66CCFF;
+  font-size: 9px;
+  position: absolute;
+  margin-right: 440rpx;
+}
+.third{
+  
+  width: 300rpx;
+  height: 48rpx;
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom:0;
+  top: 2100rpx;
+  text-align: center;
+  color: #66CCFF;
+  font-size: 9px;
+  margin-left: 440rpx;
+}
+.child {
+  width: 750rpx;
+  height: 1600rpx;  
+  left: 0;
+  top:1700rpx;
+  right: 0;
+  bottom:0;
+  white-space:pre;
+  position: absolute;
+  margin-top: 240rpx;
+  margin:auto;
+  text-align: center;
+  font-size: 14px;
+ 
+}

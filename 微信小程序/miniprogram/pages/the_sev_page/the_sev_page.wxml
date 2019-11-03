@@ -1,0 +1,10 @@
+<!--pages/the_sev_page/the_sev_page.wxml-->
+<!--pages/the_five_page/the_five_page.wxml-->
+<view class="test-bg">
+<image src="cloud://sweet-69004.7377-sweet-69004-1259591078/pit/微信图片_201908121017008.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+<view class="child">{{text}}</view>
+<view class="one">
+<van-button plain hairline type="primary" bindtap="goToTalkPage"><van-icon name="arrow-down" /></van-button>
+</view>
+

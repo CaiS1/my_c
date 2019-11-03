@@ -1,0 +1,7 @@
+<!--pages/the_se_page/the_se_page.wxml-->
+<view class="child">{{text}}</view>
+<view class="one">
+<navigator open-type="exit" target="miniProgram">
+<van-button plain hairline type="primary">退出游戏</van-button>
+</navigator>
+</view>

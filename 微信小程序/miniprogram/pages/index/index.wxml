@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="test-bg">
+<image src="cloud://sweet-69004.7377-sweet-69004/new/微信图片_20190722093254.png" class="bg-image" mode="widthFix"></image>
+</view>
+<view class="child">
+<van-button  bindtap="goToTalkPage" plain type="primary">开始游戏</van-button>
+</view>
+<view class="one">
+<text>
+</text>
+
+</view>
+

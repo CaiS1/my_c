@@ -1,0 +1,19 @@
+<!--pages/the_5_page/the_5_page.wxml-->
+<!--pages/the_fo_page/the_fo_page.wxml-->
+<!--pages/the_first_page/the_first_page.wxml-->
+<view class="test-bg">
+<image src="cloud://sweet-69004.7377-sweet-69004/拣爱/微信图片_20190716102647.png" class="bg-image" mode="widthFix"></image>
+</view>
+<view class="child">{{text}}</view>
+<view class="one">
+<view class="two"><van-button  bindtap="goToTalkPage" hairline="true" plain type="primary">来吃我啊（披萨）</van-button>
+</view>
+<view class="third">
+
+<van-button  catchtap="jumpToOverMissionList" hairline="true" plain type="primary">韩式烤肉（自助）</van-button>
+
+
+</view>
+
+</view>
+
